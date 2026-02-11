@@ -31,7 +31,7 @@ tic-tac-toe/
 │
 ├── index.html      # Game structure
 ├── style.css       # Styling file
-├── script.js       # Game logic
+├── map.js       # Game logic
 └── README.md       # Project documentation
 
 🧠 How the Game Works
@@ -98,3 +98,4 @@ GitHub: https://github.com/yourusername
 📄 License
 
 This project is open-source and available under the MIT License.
+
