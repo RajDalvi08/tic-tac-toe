@@ -1,101 +1,125 @@
-🎮 Tic Tac Toe Game
+# 🎮 **TIC TAC TOE GAME**
 
-A simple and interactive Tic Tac Toe game built using HTML, CSS, and JavaScript.
-This project demonstrates core front-end development concepts including DOM manipulation, event handling, and game logic implementation.
+A **simple, interactive, and responsive Tic Tac Toe game** built using **HTML, CSS, and JavaScript**.
+This project demonstrates essential frontend concepts like **DOM manipulation, event handling, and game logic implementation** in a clean and structured way.
 
+---
 
-📌 Features
+## 📌 **FEATURES**
 
-🎲 Two-player gameplay (Player X vs Player O)
+* 🎲 **Two-player gameplay** (Player ❌ vs Player ⭕)
+* 🧠 **Win detection logic** (rows, columns, diagonals)
+* 🤝 **Draw detection system**
+* 🔄 **Restart game functionality**
+* 📱 **Responsive design for all devices**
+* 🎨 **Clean, minimal, and user-friendly UI**
 
-🧠 Win detection logic
+---
 
-🤝 Draw detection
+## 🛠️ **TECH STACK**
 
-🔄 Restart game functionality
+* **HTML5** – Structure
+* **CSS3** – Styling & Layout
+* **JavaScript (Vanilla JS)** – Game Logic & DOM Manipulation
 
-📱 Responsive design
+👉 No frameworks. No libraries. Pure frontend fundamentals.
 
-🎨 Clean and minimal UI
+---
 
-🛠️ Tech Stack
+## 📂 **PROJECT STRUCTURE**
 
-HTML5 – Structure
-
-CSS3 – Styling & Layout
-
-JavaScript (Vanilla JS) – Game Logic & DOM Manipulation
-
-📂 Project Structure
+```id="k9sd3f"
 tic-tac-toe/
 │
 ├── index.html      # Game structure
 ├── style.css       # Styling file
-├── map.js       # Game logic
-└── README.md       # Project documentation
+├── map.js          # Game logic
+└── README.md       # Documentation
+```
 
-🧠 How the Game Works
+---
 
-The board consists of 9 cells arranged in a 3×3 grid.
+## 🧠 **HOW THE GAME WORKS**
 
-Players take turns clicking empty cells.
+* The board contains **9 cells arranged in a 3×3 grid**
+* Players take turns clicking on empty cells
+* Each move updates the board dynamically using the DOM
 
-The game checks for:
+### ✅ The game checks for:
 
-3 matching symbols in a row (horizontal, vertical, diagonal)
+* 3 matching symbols in a row:
 
-Or a draw when all cells are filled
+  * Horizontal
+  * Vertical
+  * Diagonal
 
-The winner or draw message is displayed.
+### 🤝 Draw Condition:
 
-Restart button resets the board.
+* All cells are filled and no winner is found
 
+👉 The game instantly displays:
 
-⚙️ Installation & Usage
+* Winner message 🎉
+* Or Draw message 🤝
 
-Clone the repository:
+---
 
-git clone https://github.com/yourusername/tic-tac-toe.git
+## ⚙️ **INSTALLATION & USAGE**
 
+### 1️⃣ Clone the Repository
 
-Open the project folder.
+```bash id="l4c8vs"
+git clone https://github.com/RajDalvi08/tic-tac-toe.git
+```
 
-Open index.html in your browser.
+### 2️⃣ Open Project Folder
 
-No additional dependencies required ✅
+```bash id="n0r5f1"
+cd tic-tac-toe
+```
 
-🎯 Learning Outcomes
+### 3️⃣ Run the Game
 
-This project helped in understanding:
+Open `index.html` in your browser.
 
-DOM selection & manipulation
+👉 No dependencies required ✅
 
-Event listeners
+---
 
-Game state management
+## 🎯 **LEARNING OUTCOMES**
 
-Conditional logic in JavaScript
+This project helps you understand:
 
-Basic UI design principles
+* DOM Selection & Manipulation
+* Event Handling in JavaScript
+* Game State Management
+* Conditional Logic Implementation
+* UI/UX Structuring Basics
 
-🔮 Future Improvements
+---
 
-Add AI (Single Player Mode)
+## 📈 **FUTURE IMPROVEMENTS**
 
-Add Scoreboard
+* 🤖 Add AI (Single Player Mode)
+* 🏆 Scoreboard System
+* 🔊 Sound Effects
+* 🎞️ Animations & Transitions
+* 🌙 Dark / Light Mode Toggle
+* 📱 Advanced Mobile Optimization
 
-Add Sound Effects
+---
 
-Add Animations
+## 👨‍💻 **AUTHOR**
 
-Dark/Light Mode Toggle
+**Raj Dalvi**
+🔗 GitHub: https://github.com/RajDalvi08
 
-👨‍💻 Author
+---
 
-Raj Dalvi
-GitHub: https://github.com/yourusername
+## 📄 **LICENSE**
 
-📄 License
+This project is licensed under the **MIT License**.
 
-This project is open-source and available under the MIT License.
+---
 
+💡 **Note:** This project showcases strong understanding of **JavaScript game logic and interactive UI development**, making it a great addition to any frontend portfolio.
